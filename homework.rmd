@@ -1,0 +1,32 @@
+---
+title: "Homework"
+author: "Iriska"
+date: "08/31/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# I may create Markdown documents
+
+## Code Chunks
+
+To insert a code chunk, press **Ctrl + Alt + I** in the source pane (top left pane in the default settings of RStudio).
+
+```{r}
+library(ggplot2)
+ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) + geom_point()
+```
+
+## Including Plots
+
+I can also embed plots, for example:
+
+```{r}
+data(USJudgeRatings)
+plot(USJudgeRatings$DECI, USJudgeRatings$PREP,
+     main="Relationship Between Judge Preparation and Decisions",
+     pch=16, col="blue")
+```
