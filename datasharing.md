@@ -2,5 +2,6 @@
 
 **Irina Ryabtseva**
 
+[Datasharing repository](https://github.com/Irina-rya/datasharing/datasharing.md)
 
-[git\@github.com](mailto:git@github.com){.email}:Irina-rya/datasharing.git
+[My GitHub link](https://github.com/Irina-rya)
